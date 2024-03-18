@@ -18,3 +18,17 @@ static double GetAverage(int[] numbers)
 
     return sum / numbers.Length;
 }
+
+static int GetMax(int[] numbers)
+{
+    int temp = numbers[0];
+    foreach (var VARIABLE in numbers)
+    {
+        if (VARIABLE > temp)
+        {
+            temp = VARIABLE;
+        }
+    }
+
+    return temp;
+}
