@@ -12,13 +12,13 @@ Console.WriteLine(GetMax(arr));
 
 static double GetAverage(int[] numbers)
 {
-    double sum = 0;
+    double sumaa = 0;
     foreach(int x in numbers)
     {
-        sum += x;
+        sumaa += x;
     }
 
-    return sum / numbers.Length;
+    return sumaa / numbers.Length;
 }
 
 static int GetMax(int[] numbers)
