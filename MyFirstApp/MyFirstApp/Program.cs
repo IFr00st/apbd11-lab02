@@ -8,6 +8,8 @@ Console.WriteLine("Mod 3");
 int[] arr = { 1, 2, 3, 4, 5 };
 Console.WriteLine(GetAverage(arr));
 
+Console.WriteLine(GetMax(arr));
+
 static double GetAverage(int[] numbers)
 {
     double sum = 0;
